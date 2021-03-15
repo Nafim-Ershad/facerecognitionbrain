@@ -1,0 +1,5 @@
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 5px #149df2;
+    border: 2px solid #149df2;
+}
