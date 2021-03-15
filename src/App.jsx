@@ -99,7 +99,7 @@ class App extends React.Component {
     app.models.predict(Clarifai.FACE_DETECT_MODEL, this.state.userInput).then(
       (response) => {
         if(response){
-          fetch('http://localhost:3001/image',{
+          fetch('https://warm-inlet-91768.herokuapp.com/image',{
               method: "put",
               headers: {
                   'Content-Type': 'application/json'
